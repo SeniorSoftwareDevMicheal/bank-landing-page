@@ -105,7 +105,7 @@
     }
     
     .hero2 img{
-        width: auto;
+        width: 106%;
         height: 100%;
         flex-shrink: 0;
     }
@@ -189,8 +189,9 @@
     .nav-links.active {
         height: 100vh;
         transition: 0.5s;
-        margin-left: 0;
+        margin-left: -1vw;
         background-color: #FFF;
+        width: 100%;
     }
 
     .nav-links ul {

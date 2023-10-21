@@ -337,18 +337,22 @@
     }
     
     .p-item1{
-        border: 1px dashed green;
         margin: 5px;
     }
 
     .p-item1 h1 {
-        font-size: 11px;
+        font-size: 14px;
         line-height: 11px;
     }
 
     .p-item1 p {
-        width: 130px;
-        font-size: 7px;
+        width: 180px;
+        font-size: 10px;
         line-height: 12px;
+    }
+
+    .p-item1 img{
+        width: 10%;
+        height: auto;
     }
 }

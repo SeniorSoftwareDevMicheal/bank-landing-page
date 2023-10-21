@@ -225,6 +225,7 @@ header {
 .sec2 {
     width: 80%;
     margin: 0 auto;
+    margin-top: -50px;
 }
 
 .sec2-header {
@@ -262,14 +263,14 @@ header {
 }
 
 .parent {
-    border: 2px solid red;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 25px;
 }
 
 .p-item1{
-    border: 1px dashed green;
-    margin: 50px;
+    margin: 10px;
 }
 
 .p-item1 h1 {
@@ -283,7 +284,7 @@ header {
 }
 
 .p-item1 p {
-    width: 160px;
+    width: 220px;
     color: var(--black-40, #999);
     font-feature-settings: 'clig' off, 'liga' off;
     font-family: Days One;

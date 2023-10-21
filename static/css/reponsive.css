@@ -329,4 +329,26 @@
         font-size: 11px;
         line-height: 12px;
     }
+
+    .parent {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .p-item1{
+        border: 1px dashed green;
+        margin: 5px;
+    }
+
+    .p-item1 h1 {
+        font-size: 11px;
+        line-height: 11px;
+    }
+
+    .p-item1 p {
+        width: 130px;
+        font-size: 7px;
+        line-height: 12px;
+    }
 }

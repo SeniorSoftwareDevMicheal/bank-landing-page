@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Days+One&family=Rubik:wght@400;500&display=swap');
 
-body{
-    background-color:#FFF;
+body {
+    background-color: #FFF;
     overflow-x: hidden;
 }
 
 
-header{
+header {
     width: 80%;
     height: 80px;
     background: transparent;
@@ -17,24 +17,25 @@ header{
     margin: 0 10%;
 }
 
-.logo img{
+.logo img {
     width: auto;
     height: auto;
 }
 
-.hamburger{
+.hamburger {
     display: none;
 }
 
-.nav-links{
+.nav-links {
     display: flex;
 }
-.nav-links ul{
+
+.nav-links ul {
     display: flex;
     list-style: none;
 }
 
-.nav-links ul li{
+.nav-links ul li {
     margin-left: 5px;
     text-decoration: none;
 }
@@ -44,7 +45,7 @@ header{
     font-size: 20px;
     padding: 10px 25px;
     transition: 0.5s;
-    margin: 0.5px; 
+    margin: 0.5px;
     text-decoration: none;
     /* border-bottom: 0.5px solid white; */
     color: var(--black-100, #010101);
@@ -53,18 +54,19 @@ header{
     font-size: 12px;
     font-style: normal;
     font-weight: 600;
-    line-height: 20px; /* 166.667% */
+    line-height: 20px;
+    /* 166.667% */
     letter-spacing: 2px;
     text-transform: uppercase;
 }
 
 
-.nav-button{
+.nav-button {
     display: flex;
     align-items: center;
 }
 
-.nav-button button{
+.nav-button button {
     width: 100px;
     height: 25px;
     border-radius: 4px;
@@ -77,12 +79,13 @@ header{
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
-    line-height: 20px; /* 166.667% */
+    line-height: 20px;
+    /* 166.667% */
     letter-spacing: 2px;
     text-transform: uppercase;
 }
 
-.nav-button i{
+.nav-button i {
     width: 24px;
     height: 24px;
     flex-shrink: 0;
@@ -91,18 +94,18 @@ header{
     padding-right: 33px;
 }
 
-.mv-btn{
+.mv-btn {
     display: none;
 }
 
 
-.spacer{
+.spacer {
     width: 80%;
     margin: 0 10%;
     height: 10vh;
 }
 
-.hero{
+.hero {
     /* border: 2px solid #010101; */
     display: flex;
     width: 80%;
@@ -110,7 +113,7 @@ header{
     height: 90vh;
 }
 
-.hero1{
+.hero1 {
     /* border: 1px dashed red; */
     width: 45%;
     height: 80%;
@@ -118,39 +121,42 @@ header{
     flex-direction: column;
 }
 
-.hero1 h1{
+.hero1 h1 {
     color: var(--black-100, #010101);
     font-family: 'Days One', sans-serif;
     font-size: 60px;
     font-style: normal;
     font-weight: 900;
-    line-height: 68px; /* 107.937% */
+    line-height: 68px;
+    /* 107.937% */
     margin-top: 100px;
 }
 
-.hero1 p{
+.hero1 p {
     width: 65%;
     color: var(--black-60, #676767);
     font-family: 'Days One', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 22px; /* 137.5% */
+    line-height: 22px;
+    /* 137.5% */
 }
 
-.hero1-btn{
+.hero1-btn {
     display: flex;
     font-family: Metropolis;
     font-size: 12px;
     font-style: normal;
     font-weight: 600;
-    line-height: 20px; /* 166.667% */
+    line-height: 20px;
+    /* 166.667% */
     letter-spacing: 2px;
     text-transform: uppercase;
 }
 
 .hero1-btn2:hover,
-.hero1-btn1{
+.hero1-btn1 {
     color: #FFF;
     text-align: center;
     background-color: #ED017F;
@@ -164,18 +170,18 @@ header{
 
 
 .hero1-btn1:hover,
-.hero1-btn2{
+.hero1-btn2 {
     color: var(--primary-100, #ED017F);
     text-align: center;
     background-color: #FFF;
-    border: 0.5px solid  #ED017F;
+    border: 0.5px solid #ED017F;
     border-radius: 4px;
     width: 160px;
     height: 46px;
     flex-shrink: 0;
 }
 
-.hero1-icons{
+.hero1-icons {
     font-size: 24px;
     margin-top: 50px;
     display: flex;
@@ -183,51 +189,51 @@ header{
 
 }
 
-.ph{
+.ph {
     color: #ED017F;
 }
 
-.fb{
+.fb {
     color: #4267B2;
 }
 
-.yt{
+.yt {
     color: #b2071d;
 }
 
-.ls{
-    color: #0072b1 ;
+.ls {
+    color: #0072b1;
 }
 
-.ig{
+.ig {
     color: #ED017F;
 }
 
 
-.hero2{
+.hero2 {
     /* border: 1px dashed green; */
     width: 55%;
 }
 
-.hero2 img{
+.hero2 img {
     /* border: 1px solid blue; */
     width: auto;
     height: 100%;
     flex-shrink: 0;
 }
 
-.sec2{
+.sec2 {
     width: 80%;
     margin: 0 auto;
 }
 
-.sec2-header{
+.sec2-header {
     width: 90%;
     margin: 0 auto;
     align-items: center;
 }
 
-.sec2-header h1{
+.sec2-header h1 {
     color: var(--black-80, #343434);
     text-align: center;
     font-feature-settings: 'clig' off, 'liga' off;
@@ -237,10 +243,11 @@ header{
     font-size: 36px;
     font-style: normal;
     font-weight: 400;
-    line-height: 43px; /* 119.444% */
+    line-height: 43px;
+    /* 119.444% */
 }
 
-.sec2-header p{
+.sec2-header p {
     width: 80%;
     margin: 0 auto;
     color: var(--black-40, #999);
@@ -250,5 +257,39 @@ header{
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 22px; /* 137.5% */
+    line-height: 22px;
+    /* 137.5% */
+}
+
+.parent {
+    border: 2px solid red;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.p-item1{
+    border: 1px dashed green;
+    margin: 50px;
+}
+
+.p-item1 h1 {
+    color: var(--Text, #363940);
+    font-family: Days One;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    /* 100% */
+}
+
+.p-item1 p {
+    width: 160px;
+    color: var(--black-40, #999);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Days One;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 171.429% */
 }

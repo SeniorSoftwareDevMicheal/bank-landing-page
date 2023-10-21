@@ -354,5 +354,9 @@
     .p-item1 img{
         width: 10%;
         height: auto;
+    }.sec3-img img{
+        width: 90%;
     }
+
+
 }

@@ -7,6 +7,8 @@
   <link rel="stylesheet" href="/static/css/style.css">
   <link rel="stylesheet" href="/static/css/reponsive.css">
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+/>
   <title>IPDC</title>
 </head>
 
@@ -133,12 +135,55 @@
         <h1>Digital</h1>
         <p>Setting the standard for the best Corporate Citizenship in the communities we work</p>
       </div>
-
-
     </div>
   </div>
+  <div class="sec3">
+    <div class="sec3-header">
+      <h1>BUSINESS PARTNERS</h1>
+    </div>
+    <!-- <div class="sec3-img">
+      <img src="/static/images/westinhotel.svg" alt="">
+      <img src="/static/images/submit.svg" alt="">
+      <img src="/static/images/holcim.svg" alt="">
+      <img src="/static/images/etv.svg" alt="">
+    </div> -->
+    <div class="sec3-img">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="/static/images/westinhotel.svg" alt=""></div>
+          <div class="swiper-slide"><img src="/static/images/submit.svg" alt=""></div>
+          <div class="swiper-slide"><img src="/static/images/holcim.svg" alt=""></div>
+          <div class="swiper-slide"><img src="/static/images/etv.svg" alt=""></div>
+        </div>
+        <div style="margin-top: 50px;" class="swiper-pagination"></div>
+      </div>
+    
+      <!-- Swiper JS -->
+      <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    
+      <!-- Initialize Swiper -->
+      <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 2, // Laptop view - 4 slides per view
+          spaceBetween: 10,
+          freeMode: true,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          breakpoints: {
+            768: {
+              slidesPerView: 4, // Mobile view - 2 slides per view
+            }
+          }
+        });
+      </script>
+    </div>
+    
+  </div>
 
-
+  
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
   <script src="/STATIC/js/script.js"></script>
 </body>
 

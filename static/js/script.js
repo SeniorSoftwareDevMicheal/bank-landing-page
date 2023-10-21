@@ -11,8 +11,8 @@ hamburger.onclick = function () {
   const isOpen = navBar.classList.contains("active");
   icon.classList = isOpen
 
-  ? 'bx bx-x'
-  : 'bx bx-menu-alt-right'
+    ? 'bx bx-x'
+    : 'bx bx-menu-alt-right'
 }
 
 
@@ -35,3 +35,5 @@ document.addEventListener("DOMContentLoaded", function () {
     topOfPage.scrollIntoView({ behavior: "smooth" });
   }
 });
+
+

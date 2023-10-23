@@ -11,7 +11,7 @@ body {
 header {
     width: 80%;
     height: 80px;
-    background: transparent;
+    background: white;
     display: flex;
     position: fixed;
     align-items: center;
@@ -340,9 +340,17 @@ header {
   .sec4{
     display: flex;
     margin-top: 10vh;
+    height: 85vh;
+    overflow-y: hidden;
     /* justify-content: space-between; */
   }
-
+  
+  .sec4-img{
+    width: 40vw;
+    height: 98vh;
+    background: url(/static/images/moneyplant.svg), 
+    lightgray 50% / cover no-repeat;
+  }
   .sec4-txt{
     display: flex;
     flex-direction: column;

@@ -119,13 +119,15 @@
 @media only screen and (max-width: 425px) {
     header {
         width: 98%;
-        margin: 0 1%;
+        margin: 0;
         height: 75px;
     }
 
     body{
         background-color:#FFF;
         overflow-x: hidden !important;
+        margin: 0;
+        padding: 0;
     }
 
     .hamburger {
@@ -377,13 +379,16 @@
 
     .sec4-img{
         width: 100vw;
-        height: 50vh;
+        height: 45vh;
         overflow-x: hidden !important;
+        background: url(/static/images/moneyplant.svg), 
+        lightgray 50% / cover no-repeat;
     }
 
     .sec4-img img{
         width: auto;
         height: auto;
+        
     }
 
     .sec4-txt{

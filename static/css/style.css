@@ -3,6 +3,8 @@
 body {
     background-color: #FFF;
     overflow-x: hidden;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -325,12 +327,67 @@ header {
     justify-content: center;
 }
 
-.sec3-img img{
-    /* margin: 0 5%; */
-}
+/* .sec3-img img{
+    margin: 0 5%;
+} */
 
 
 .swiper {
     width: 100%;
     height: auto;
+  }
+
+  .sec4{
+    display: flex;
+    margin-top: 10vh;
+    /* justify-content: space-between; */
+  }
+
+  .sec4-txt{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 5%;
+  }
+
+  .sec4-txt h1{
+    width: 352px;
+    color: var(--black-80, #343434);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Days One;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38px; /* 118.75% */
+  }
+
+  .sec4-txt p{
+    width: 460px;
+    color: var(--black-60, #676767);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Days One;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px; /* 181.25% */
+  }
+
+  .sec4-icon{
+    font-size: 30px;
+    padding-left: 10px;
+  }
+
+  .sec4-link a{
+    text-decoration: none;
+  }
+
+  .sec4-link p{
+    color: var(--primary-100, #ED017F);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Days One;
+    font-size: 19.333px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26.583px; /* 137.5% */
   }

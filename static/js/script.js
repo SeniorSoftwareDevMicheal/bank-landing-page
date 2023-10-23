@@ -37,3 +37,19 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
+// < !--Initialize Swiper-- >
+var swiper = new Swiper(".mySwiper", {
+  slidesPerView: 2, // Laptop view - 4 slides per view
+  spaceBetween: 10,
+  freeMode: true,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  breakpoints: {
+    768: {
+      slidesPerView: 4, // Mobile view - 2 slides per view
+    }
+  }
+});
+

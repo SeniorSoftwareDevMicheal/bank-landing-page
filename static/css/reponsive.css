@@ -120,11 +120,12 @@
     header {
         width: 98%;
         margin: 0 1%;
+        height: 75px;
     }
 
     body{
         background-color:#FFF;
-        overflow-x: hidden;
+        overflow-x: hidden !important;
     }
 
     .hamburger {
@@ -369,4 +370,62 @@
         line-height: 30px;
     }
 
+
+    .sec4{
+        flex-direction: column;
+    }
+
+    .sec4-img{
+        width: 100vw;
+        height: 50vh;
+        overflow-x: hidden !important;
+    }
+
+    .sec4-img img{
+        width: auto;
+        height: auto;
+    }
+
+    .sec4-txt{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+        padding: 2.5%;
+      }
+    
+      .sec4-txt h1{
+        width: 300px;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 19px;
+      }
+    
+      .sec4-txt p{
+        width: 300px;
+        font-size: 8px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 14.5px;
+      }
+    
+    
+      .sec4-link a{
+        text-decoration: none;
+      }
+    
+      .sec4-link p{
+        color: var(--primary-100, #ED017F);
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Days One;
+        font-size: 9.7px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 13.3px;
+      }
+
+      .sec4-icon{
+        font-size: 15px;
+      }
 }

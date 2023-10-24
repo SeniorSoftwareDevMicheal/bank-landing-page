@@ -400,3 +400,66 @@ header {
     font-weight: 400;
     line-height: 26.583px; /* 137.5% */
   }
+
+  .sec5{
+    width: 80%;
+    height: 100vh;
+    margin: 0 auto;
+  }
+
+  .sec5-header h1{
+    color: var(--black-80, #343434);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Menu */
+    font-family: Days One;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 43px; /* 119.444% */
+  }
+
+  .sec5-header p{
+    color: var(--black-40, #999);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Days One;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 137.5% */
+  }
+
+  .s-img1{
+    display: flex;
+    width: 254px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 22px;
+    align-self: stretch;
+  }
+
+  .s-img1 h1{
+    color: var(--Text, #363940);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Days One;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px; /* 166.667% */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  .s-img1-txt{
+    display: flex;
+    align-items: center;
+  }
+
+  .sec5-icon{
+    border-radius: 50px;
+    padding: 5px;
+    background-color: #FCE0EF;
+    color: #ED017F;
+  }

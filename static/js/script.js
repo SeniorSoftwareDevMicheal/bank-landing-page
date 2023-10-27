@@ -36,20 +36,51 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 });
 
-
-// < !--Initialize Swiper-- >
-var swiper = new Swiper(".mySwiper", {
-  slidesPerView: 2, // Laptop view - 4 slides per view
-  spaceBetween: 10,
-  freeMode: true,
+const swiper = new Swiper('.swiper', {
+  // Swiper options for the first slider
+  slidesPerView: 2,
+  spaceBetween: 50,
+  direction: 'horizontal',
+  loop: true,
   pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
+    el: '.swiper-pagination',
   },
   breakpoints: {
     768: {
-      slidesPerView: 4, // Mobile view - 2 slides per view
+      slidesPerView: 4,
     }
-  }
+  },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
 });
+
+const myswiper = new Swiper('.myswiper', {
+  // Swiper options for the second slider
+  slidesPerView: 2,
+  spaceBetween: 150,
+  direction: 'horizontal',
+  loop: true,
+  pagination: {
+    el: '.swiper-pagination',
+  },
+  breakpoints: {
+    768: {
+      slidesPerView: 4,
+      spaceBetween: 5, // Add space between slides on larger screens
+    }
+  },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+});
+
 

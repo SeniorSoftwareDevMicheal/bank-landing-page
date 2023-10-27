@@ -222,6 +222,7 @@
 
     body {
         background-color: #FFF;
+        width: 99vw;
         overflow-x: hidden !important;
         margin: 0;
         padding: 0;
@@ -438,6 +439,7 @@
 
     .p-item1 {
         margin: 5px;
+        width: 150px;
     }
 
     .p-item1 h1 {
@@ -739,5 +741,17 @@
         align-content: center;
         gap: 5px;
       
+      }
+
+      .name-tag{
+        display: flex;
+        width: 100vw;
+        justify-content: space-between;
+        
+      }
+      .name-t p{
+        width: 200px;
+        text-align: right;
+        font-family: cursive;
       }
 }

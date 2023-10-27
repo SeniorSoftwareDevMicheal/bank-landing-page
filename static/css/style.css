@@ -695,3 +695,8 @@ header {
   gap: 5px;
 
 }
+
+.name-t p{
+  text-align: right;
+  font-family: cursive;
+}

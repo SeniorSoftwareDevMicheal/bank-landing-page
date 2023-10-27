@@ -7,13 +7,18 @@ body {
     padding: 0;
 }
 
+.nav-bar{
+  width: 100vw;
+  height: 10vh;
+  background-color: white;
+  position: fixed;
+
+}
 
 header {
     width: 80%;
     height: 80px;
-    background: white;
     display: flex;
-    position: fixed;
     align-items: center;
     justify-content: space-between;
     margin: 0 10%;
@@ -112,7 +117,7 @@ header {
     display: flex;
     width: 80%;
     margin: 0 10%;
-    height: 90vh;
+    height: 93vh;
 }
 
 .hero1 {
@@ -226,8 +231,8 @@ header {
 
 .sec2 {
     width: 80%;
-    margin: 0 auto;
-    margin-top: -50px;
+    margin: 50px auto;
+    /* margin-top: -50px; */
 }
 
 .sec2-header {
@@ -236,6 +241,7 @@ header {
     align-items: center;
 }
 
+.sec3-header h1,
 .sec2-header h1 {
     color: var(--black-80, #343434);
     text-align: center;
@@ -276,13 +282,15 @@ header {
 }
 
 .p-item1 h1 {
-    color: var(--Text, #363940);
-    font-family: Days One;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 22px;
-    /* 100% */
+  width: 220px;
+  color: var(--black-40, #999);
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Days One;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  /* 171.429% */
 }
 
 .p-item1 p {
@@ -299,27 +307,13 @@ header {
 
 .sec3 {
     width: 80%;
-    margin: 0 auto;
+    margin: 50px auto;
 }
 
 .sec3-header {
     width: 90%;
     margin: 0 auto;
     align-items: center;
-}
-
-.sec3-header h1 {
-    color: var(--black-80, #343434);
-    text-align: center;
-    font-feature-settings: 'clig' off, 'liga' off;
-
-    /* Menu */
-    font-family: Days One;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 43px;
-    /* 119.444% */
 }
 
 .sec3-img{
@@ -339,7 +333,7 @@ header {
 
   .sec4{
     display: flex;
-    margin-top: 10vh;
+    margin-top: 50px;
     height: 85vh;
     overflow-y: hidden;
     /* justify-content: space-between; */
@@ -404,9 +398,9 @@ header {
   .sec5{
     width: 80%;
     height: 100vh;
-    margin: 0 auto;
+    margin: 50px auto;
   }
-
+  .sec7-header h1,
   .sec5-header h1{
     color: var(--black-80, #343434);
     text-align: center;
@@ -420,6 +414,8 @@ header {
     line-height: 43px; /* 119.444% */
   }
 
+  .sec6-header p,
+  .sec7-header p,
   .sec5-header p{
     color: var(--black-40, #999);
     text-align: center;
@@ -463,3 +459,208 @@ header {
     background-color: #FCE0EF;
     color: #ED017F;
   }
+
+  .sec6{
+    margin: 50px auto;
+    /* border: 2px solid rebeccapurple; */
+  }
+
+
+  .sec6-header{
+    width: 575px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .sec6-header h1{
+    color: var(--black-80, #343434);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Menu */
+    font-family: Days One;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 43px; /* 119.444% */
+  }
+
+  .sec6-body{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    gap: 125px;
+    /* justify-content: space-between; */
+  }
+
+  .data1{
+    width: 172px;
+  }
+  .data1 h1{
+    color: var(--primary-100, #ED017F);
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Values */
+    font-family: Days One;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 43px; /* 107.5% */
+  }
+
+  .data2{
+    width: 172px;
+  }
+
+  .data3{
+    width: 172px;
+    margin-top: -115px;
+  }
+
+  .data3 h1,
+  .data2 h1{
+    color: var(--black-80, #343434);
+    font-feature-settings: 'clig' off, 'liga' off;
+    
+    /* Values */
+    font-family: Days One;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 43px; /* 107.5% */
+  }
+
+  .data1 p,
+  .data3 p,
+  .data2 p{
+    color: var(--black-60, #676767);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Days One;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 156.25% */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  .sec7{
+    width: 100vw;
+    height: auto;
+    flex-shrink: 0;
+    margin: 50px auto;
+  }
+
+
+  .sec7-header{
+    width: 410px;
+    margin: 0 auto;
+  }
+
+
+  .sec7-body{
+    width: 500px;
+    margin: 0px auto;
+  }
+
+
+  .sec7-form{
+    display: flex;
+    gap: 11px;
+  }
+  .sec7-forminp{
+    display: flex;
+    width: 343px;
+    padding: 12px 15px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 4px;
+    border: 1px solid var(--black-20, #CCC);
+    background: #FFF;
+  }
+
+  .sec7-formbtn{
+    display: flex;
+    padding: 13px 24px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 4px;
+    border-color: transparent;
+    background: var(--primary-100, #ED017F);
+  }
+
+  .footer{
+    width: 100vw;
+    height: 45vh;
+    background: #FEF9FC;
+  }
+
+  .f-body{
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .f-body1{
+    width: 180px;
+    margin-top: 25px;
+  }
+
+  .f-body1 h1{
+    color: var(--black-100, #010101);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Days One;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 122.222% */
+  }
+
+  .f-body2 a,
+  .f-body1 p{
+    color: var(--black-60, #676767);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Days One;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 157.143% */
+  }
+
+  .f-body2{
+    width: 200px;
+    margin-top: 25px;
+  }
+
+  .f-body2 h1{
+    color: var(--Text, #363940);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Days One;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 122.222% */
+  }
+
+  .f-body2 ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .f-body2 ul li{
+    line-height: 32px;
+  }
+
+  .f-body2 a{
+    text-decoration: none;
+  }
+
+  .f-body-icons{
+    font-size: 24px;
+    display: flex;
+    align-content: center;
+    gap: 5px;
+
+}
